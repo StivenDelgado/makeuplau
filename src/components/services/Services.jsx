@@ -19,11 +19,11 @@ const Services = ({ data }) => {
               <div key={row.id} className='flex flex-col justify-between py-2 items-center mt-36 h-[60%]'>
                 <h3 className='font-bold text-4xl'>{row.tittle}</h3>
                 <p className='font-normal opacity-75 text-xl'>{row.info}</p>
-                <p className='font-semibold text-2xl'>${row.price}</p>
+                <p className='font-semibold text-2xl'>$ {row.price} COP.</p>
                 <Button children="Contáctame" handler={()=>handler()}/>
               </div>
               <div className='flex justify-end items-center'>
-                <img src={row.img} alt="" className='h-[60%] object-cover w-[80%]' />
+                <img src={row.img} alt="" className='h-[60%] object-contain w-[80%]' />
               </div>
             </div>
           ))
