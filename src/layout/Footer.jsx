@@ -14,7 +14,7 @@ const Footer = () => {
         <div>
           Calle 50,<br />
           Armenia, Quindío. <br />
-          (324) 281-5979
+          (313) 703-8087
         </div>
         <ul className='opacity-90 flex flex-col justify-around space-y-2'>
           <li className='border-b-[1px] w-full hover:opacity-70 cursor-pointer'>Acerca de</li>

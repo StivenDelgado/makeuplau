@@ -1,13 +1,14 @@
 import React from 'react'
 import img from '../../assets/img/15.jpeg'
 import ButtonSecundary from '../buttonSecundary/ButtonSecundary'
+import Image from 'next/image'
 
 
 const Quince = () => {
     return (
         <div className='grid grid-cols-2'>
             <div className='w-full flex justify-center items-center'>
-                <img src={img.src} alt="" className='w-[60%] h-[70%] object-cover' />
+                <Image src={img.src} alt="" className='w-[60%] h-[70%] object-cover' quality={100} width={300} height={200} />
             </div>
             <div className='flex flex-col items-center justify-evenly'>
                 <h2 className='text-5xl font-serif'>Maquillaje de quinceañera</h2>
