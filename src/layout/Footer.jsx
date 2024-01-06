@@ -1,6 +1,5 @@
 import React from 'react'
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
-import { RiTwitterXLine } from "react-icons/ri";
+import { FaFacebookSquare, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -22,7 +21,7 @@ const Footer = () => {
           <li className='border-b-[1px] w-full hover:opacity-70 cursor-pointer'>Contáctame</li>
         </ul>
           <div className='flex justify-end space-x-2 w-[8%] items-center'>
-          <FaFacebookSquare className='text-2xl cursor-pointer hover:opacity-70' /><FaInstagram  className='text-2xl cursor-pointer hover:opacity-70'/> <RiTwitterXLine  className='text-2xl cursor-pointer hover:opacity-70'/>
+          <FaFacebookSquare className='text-2xl cursor-pointer hover:opacity-70' /><FaInstagram  className='text-2xl cursor-pointer hover:opacity-70'/> <FaWhatsapp  className='text-2xl cursor-pointer hover:opacity-70'/>
 
         </div>
       </div>

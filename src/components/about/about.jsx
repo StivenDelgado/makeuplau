@@ -3,11 +3,23 @@ import React from 'react'
 import CardProfile from '../card/Card';
 const about = () => {
   return (
-    <div className='w-full pt-20 min-h-[800px] flex justify-center bg-white'>
+    <div className='w-full pt-20 min-h-[800px] flex justify-center bg-white' id='who'>
     <div className='w-[1400px] flex flex-col items-center justify-between pb-32'>
       <CardProfile/>
-      <p className='font-medium text-lg text-secundary'>Desde muy pequeña me gustaba todo lo relacionado a la belleza, siempre era la que maquillaba a todas sus amigas y familiares para sus eventos. En ese entonces solo era un <span className='text-primary'>“hobbie”</span>, le encantaba ver tutoriales en Youtube y replicar los maquillajes en ella, asi como tambien, estar al tanto de los nuevos productos de maquillaje que salian al mercado. 
-Con el tiempo, mi pasión por el maquillaje fue creciendo y transformándose en algo más que un simple pasatiempo. A medida que perfeccionaba mis habilidades, comencé a recibir elogios y solicitudes de otras personas que querían que las maquillara para diferentes ocasiones. Fue entonces cuando me di cuenta de que podría convertir mi amor por la belleza en algo más significativo. Decidí explorar la posibilidad de dedicarme profesionalmente al maquillaje, asistiendo a cursos y eventos para mejorar mis conocimientos. La idea de compartir mi talento y ayudar a que otras personas se sintieran hermosas en momentos especiales se convirtió en mi motivación principal. Así, lo que empezó como un simple <span className='text-primary'>"hobbie"</span> se transformó en mi vocación, y cada día me emociona más la idea de hacer que la belleza resalte en cada rostro que tengo la oportunidad de maquillar.</p>
+      <p className=' text-lg text-secundary font-medium pb-10'>
+      Desde muy pequeña le gustaba todo lo relacionado a la belleza, siempre era la que maquillaba a todas sus amigas y familiares para sus eventos. En ese entonces solo era un <span className='text-primary'>“hobbie”</span>, le encantaba ver tutoriales en Youtube y replicar los maquillajes en ella, asi como tambien, estar al tanto de los nuevos productos de maquillaje que salian al mercado. A la par <span className='text-primary'>Valentina</span> se dedicó a formarse en la carrera lenguas modernas, rubro al que se dedicó por casi 3 años. Un dia, en la búsqueda de tener algo propio y sentir que hacia lo que le apasionaba, tomo la decisión de crear su propia empresa. Asi fue cuando nació <span className='text-primary'>VALEN BEAUTY</span> e hizo que su <span className='text-primary'>“hobbie”</span> sea su trabajo a tiempo completo.
+     <br/> <br/>  Actualmente <span className='text-primary'>Valentina</span> cuenta con estudios en Colombia, Quindio. Ha ido a clases con Mariana Navarro, Hernan de la Cruz y Johana Godoy. Presta sus servicios a novias, quinceañeras y social.
+      </p>
+      <div className='flex flex-row justify-around pt-10 border-t-2 border-primary'>
+        <div className='w-[40%] flex flex-col space-y-2'>
+          <h2 className='text-2xl text-primary font-medium'>Misión</h2>
+          <p className='text-secundary font-medium text-lg'>Satisfacer la necesidad de sentirse y verse bien. Estar a la vanguardia con las nuevas tendencias en belleza, satisfaciendo a nuestros clientes con productos, servicios, técnicas  innovadores y que nuestro cliente encuentre todo lo que busca en belleza en un solo lugar.</p>
+        </div>
+        <div className='w-[40%] flex flex-col space-y-2'>
+          <h2 className='text-2xl text-primary font-medium'>Visión</h2>
+          <p className='text-secundary font-medium text-lg'>Ser una maquilladora reconocida nacionalmente por un diferencial genuino y auténtico dentro de 3 años.</p>
+        </div>
+      </div>
     </div>
     </div>
   )

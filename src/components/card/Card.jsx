@@ -13,10 +13,10 @@ const CardProfile = () => {
   return (
     <Card className="w-96 bg-white" shadow="" >
     <CardHeader floated={false} className="h-80">
-      <video className="h-full w-full rounded-lg" controls autoPlay>
+      <video className="h-full w-full rounded-lg" controls autoPlay muted loop>
       <source src="https://res.cloudinary.com/dyrfmuceq/video/upload/f_auto:video,q_auto/rtpinrz74hrgmkkxfbtg" type="video/mp4" />
       Your browser does not support the video tag.
-    </video>
+    </video>w
     </CardHeader>
     <CardBody className="text-center">
       <Typography variant="h4" color="blue-gray" className="mb-2">

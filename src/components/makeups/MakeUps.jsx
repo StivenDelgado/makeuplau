@@ -5,7 +5,7 @@ import Quince from '../Quince/Quince'
 
 const MakeUps = () => {
   return (
-    <div className='w-full flex justify-center'>
+    <div className='w-full flex justify-center bg-secundary'>
       <div className='w-[90%]'>
         <Novias/>
         <Social/>

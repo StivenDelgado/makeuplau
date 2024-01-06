@@ -15,7 +15,13 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+*::-webkit-scrollbar{
+  /* border: 1px solid red; */
+}
 
+html{
+ scroll-behavior: smooth;
+}
 body {
 background-color: #e1ccbe;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

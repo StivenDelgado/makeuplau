@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../../assets/img/brillo.jpg'
-import img2 from '../../assets/img/girl.jpg'
+import img2 from '../../assets/img/maquillaje.jpg'
 import Button from '../button/Button'
 import Image from 'next/image'
  
