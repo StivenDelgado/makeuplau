@@ -6,7 +6,7 @@ import { FaArrowLeft } from "react-icons/fa";
 
 
 const Header = () => {
-  const [path, setPath] = useState(window.location.pathname)
+  const [path, setPath] = useState("/")
   useEffect(() => {
     setPath(window.location.pathname)
   }, [])
