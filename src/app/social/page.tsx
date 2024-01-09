@@ -1,7 +1,7 @@
-import Services from '@/components/services/Services'
-import Header from '@/layout/Header'
+import Services from '../../components/services/Services'
+import Header from '../../layout/Header'
 import React from 'react'
-import img from '@/assets/img/manu.jpg'
+import img from '../../assets/img/manu.jpg'
 
 
 const Pagesocial = () => {
@@ -19,7 +19,7 @@ const Pagesocial = () => {
   return (
     <>
       <Header/>
-      <Services data={modelService}/>
+      <Services info={modelService}/>
     </>
   )
 }

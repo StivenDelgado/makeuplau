@@ -1,6 +1,6 @@
 "use client"
-import Nav from '@/components/Nav'
-import ButtonSecundary from '@/components/buttonSecundary/ButtonSecundary'
+import Nav from '../components/Nav'
+import ButtonSecundary from '../components/buttonSecundary/ButtonSecundary'
 import React, { useEffect, useState } from 'react'
 import { FaArrowLeft } from "react-icons/fa";
 

@@ -1,12 +1,13 @@
 "use client"
-import Footer from '@/layout/Footer'
+import Footer from '../../layout/Footer'
 import React from 'react'
 import Button from '../button/Button'
 import Image from 'next/image'
-import { BsStars } from 'react-icons/bs'
 
-
-const Services = ({ data }) => {
+interface Props{
+  info: Array<object>
+}
+const Services = ({ info: data }) => {
   //abrir whatsapp 
   const handler = () => {
     window.open("https://wa.me/message/LDT4MVFTIBWMM1")

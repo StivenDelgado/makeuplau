@@ -1,8 +1,8 @@
-import About from '@/components/about/about'
+import About from '../components/about/about'
 import React from 'react'
-import Content from '@/components/content/Content'
-import MakeUps from '@/components/makeups/MakeUps'
-import Conditions from '@/components/conditions/Conditions'
+import Content from '../components/content/Content'
+import MakeUps from '../components/makeups/MakeUps'
+import Conditions from '../components/conditions/Conditions'
 
 const Main = () => {
   return (

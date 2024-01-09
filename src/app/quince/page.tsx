@@ -1,7 +1,7 @@
-import Services from '@/components/services/Services'
-import Header from '@/layout/Header'
+import Services from '../../components/services/Services'
+import Header from '../../layout/Header'
 import React from 'react'
-import img from '@/assets/img/quince.jpg'
+import img from '../../assets/img/quince.jpg'
 const PageQuince = () => {
 
   const modelService = [
@@ -36,7 +36,7 @@ const PageQuince = () => {
   return (
     <>
       <Header />
-      <Services data={modelService} />
+      <Services info={modelService} />
     </>
   )
 }

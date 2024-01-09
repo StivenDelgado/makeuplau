@@ -1,6 +1,6 @@
-import Services from '@/components/services/Services'
+import Services from '../../components/services/Services'
 import React from 'react'
-import Header from '@/layout/Header'
+import Header from '../../layout/Header'
 
 
 const PageNovias = () => {
@@ -30,7 +30,7 @@ const PageNovias = () => {
   return (
     <>
       <Header/>
-      <Services data={modelService}/>
+      <Services info={modelService}/>
     </>
   )
 }
