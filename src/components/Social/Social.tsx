@@ -11,7 +11,7 @@ const Social = () => {
             <div className='flex flex-col items-center justify-evenly'>
                 <h2 className='text-5xl font-serif uppercase'>Maquillaje social</h2>
                 <p className='w-[70%]'>El maquillaje social es una técnica versátil y adaptada a diversas ocasiones, como eventos sociales, fiestas o salidas. Busca realzar la belleza natural de una persona mediante el uso de productos cosméticos, resaltando rasgos y corrigiendo imperfecciones para lograr un aspecto favorecedor y acorde al contexto social o evento específico.</p>
-                <ButtonSecundary children={"Ver más..."} link="social"/>
+                <ButtonSecundary  link="social">Ver más...</ButtonSecundary>
             </div>
         </div>
     )

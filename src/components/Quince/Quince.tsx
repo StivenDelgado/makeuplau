@@ -14,7 +14,7 @@ const Quince = () => {
                 <h2 className='text-5xl font-serif uppercase'>Paquetes XV</h2>
                 <p className='w-[70%]'>El maquillaje para quinceañeras se enfoca en resaltar la frescura y juventud de las chicas que celebran sus quince años, empleando colores suaves y técnicas que realzan la belleza natural. Se busca crear un aspecto radiante y elegante, adaptado a la ocasión especial de su fiesta de quinceañera, destacando sus rasgos sin exceder en la intensidad del maquillaje.
                 </p>
-                <ButtonSecundary children={"Ver más..."} link="quince" />
+                <ButtonSecundary link="quince" >Ver más...</ButtonSecundary>
             </div>
 
         </div>
