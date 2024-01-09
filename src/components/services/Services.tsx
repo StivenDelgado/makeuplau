@@ -66,11 +66,23 @@ const Services = ({ info: data }) => {
             :
             <div className='w-full  flex flex-col justify-between h-[1100px] p items-center bg-maincolor text-secundary'>
             <div key={row.id} className='w-[74%] h-full mark grid grid-cols-2 '>
-              <div className='flex flex-col justify-between py-2 items-center mt-28 h-[80%]'>
+              <div className='flex flex-col justify-between py-2  mt-28 h-[80%]'>
                 <h3 className='font-bold text-4xl uppercase'>{row.tittle}</h3>
                 <p className='font-normal opacity-75 text-xl'>{row.info}</p>
+                {
+                      row.descrip === undefined ?
+                        null
+                        :
+                        <ul>
+                          {row.descrip.map((list:any, index:any) => (
+                            <li className={`text-xl  opacity-80 ${index === 0 ? "opacity-100 font-bold pb-3 text-2xl" : null}`} key={index}>
+                              {list + (index === 0 ?  ":" : "")}
+                            </li>
+                          ))}
+                        </ul>
+                    }
                 <p className='font-semibold text-2xl'>$ {row.price} COP.</p>
-                <Button handler={() => handler()} >Contáctame</Button>
+                <div className='w-full flex justify-center'><Button handler={() => handler()} >Contáctame</Button></div>
               </div>
               <div className='flex justify-end items-center '>
                 <Image src={row.img} alt="" className='object-cover h-[900px] w-[600px]' width={900} height={300} quality={100} />
