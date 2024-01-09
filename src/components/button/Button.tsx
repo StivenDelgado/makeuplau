@@ -5,12 +5,12 @@ interface MyComponentProps {
   handler?: Function
 }
 
-const Button : React.FC<MyComponentProps> = forwardRef(({children,  handler = () => {}}) => {
+const Button : React.FC<MyComponentProps> = ({children,  handler = () => {}}) => {
   return (
     <button className='w-52 h-14 rounded-2xl hover:opacity-90 bg-primary text-maincolor' onClick={() => handler()}>
       {children}
     </button>
   )
-})
+}
 
 export default Button
