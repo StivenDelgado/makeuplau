@@ -5,7 +5,7 @@ import Button from '../button/Button'
 import Image from 'next/image'
  
 const Content = () => {
-  const [screen, setScreen] = useState(window.innerWidth)
+  const [screen, setScreen] = useState(0)
   const [widthImg, setwidthImg] = useState(1000)
   useEffect(() => {
     setScreen(window.innerWidth)
