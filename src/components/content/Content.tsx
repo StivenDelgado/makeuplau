@@ -19,6 +19,7 @@ const Content = () => {
     </div>
     <div className='absolute w-full bottom-2  sm:top-[21rem] sm:right-12 flex flex-col space-y-20 items-center spa'>
         <h1 className='text-9xl text-center sm:text-4xl font-serif text-maincolor'>Maquillaje <br /> <span className='pl-44'>Profesional</span></h1>
+        
     </div>
     </>
   )
